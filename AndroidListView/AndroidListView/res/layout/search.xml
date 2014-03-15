@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+ 	android:layout_height="fill_parent"
+ 	android:background="@color/brown">
+ 	  <include
+ 	    android:layout_weight="1"
+        layout="@layout/topsearch"
+        android:id="@+id/topid"/>
+
+    <LinearLayout
+        android:layout_weight=".5"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal">
+        
+        <EditText
+        android:layout_width="fill_parent" 
+   		android:layout_height="fill_parent" 
+   		android:layout_marginTop="2dp"
+   		android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+    	android:paddingTop="2dp"
+    	android:gravity="center"
+    	android:layout_weight="1"
+        android:ems="10"
+        android:hint="Title of Article"
+    	android:background="@drawable/round"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:background="@drawable/button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Search" />
+        
+    </LinearLayout>
+    
+    
+    <ListView 
+        android:layout_weight="20"
+        android:layout_marginTop="10dp"
+	 	android:layout_height="wrap_content"
+	 	android:layout_width="fill_parent" 
+	 	android:id="@+id/android:list"/>
+
+</LinearLayout>

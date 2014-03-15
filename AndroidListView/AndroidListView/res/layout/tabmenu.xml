@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+    android:layout_height="45dp" 
+   	android:gravity="bottom"
+    android:orientation="horizontal"
+    android:background="@color/brown" >
+    <ImageButton
+	    			    android:id="@+id/homebutton"
+	    			    android:layout_width="95dp"
+	    			    android:layout_height="match_parent"
+	    			    android:layout_weight=".7"
+	    			    android:paddingTop="7dp"
+	    			    android:paddingBottom="7dp"
+	    			    android:paddingLeft="7dp"
+	    			    android:paddingRight="7dp"
+	    			    android:scaleType="fitXY"
+	    			    android:onClick="academics"
+	    			    android:background="@color/transparent"
+	    			    android:src="@drawable/academics_logo" />
+   <ImageButton
+	    			    android:id="@+id/homebutton"
+	    			    android:layout_width="95dp"
+	    			    android:layout_height="match_parent"
+	    			    android:layout_weight=".7"
+	    			    android:paddingTop="7dp"
+	    			    android:paddingBottom="7dp"
+	    			    android:paddingLeft="7dp"
+	    			    android:paddingRight="7dp"
+	    			    android:scaleType="fitXY"
+	    			    android:onClick="extracurricular"
+	    			    android:background="@color/transparent"
+	    			    android:src="@drawable/extracurricular_logo" />
+  
+   <ImageButton
+	    			    android:id="@+id/homebutton"
+	    			    android:layout_width="95dp"
+	    			    android:layout_height="match_parent"
+	    			    android:layout_weight=".7"
+	    			    android:paddingTop="7dp"
+	    			    android:paddingBottom="7dp"
+	    			    android:paddingLeft="7dp"
+	    			    android:paddingRight="7dp"
+	    			    android:scaleType="fitXY"
+	    			    android:onClick="svd"
+	    			    android:background="@color/transparent"
+	    			    android:src="@drawable/svd_logo" />
+   <ImageButton
+	    			    android:id="@+id/homebutton"
+	    			    android:layout_width="95dp"
+	    			    android:layout_height="match_parent"
+	    			    android:layout_weight=".7"
+	    			    android:paddingTop="7dp"
+	    			    android:paddingBottom="7dp"
+	    			    android:paddingLeft="7dp"
+	    			    android:paddingRight="7dp"
+	    			    android:scaleType="fitXY"
+	    			    android:onClick="calendar"
+	    			    android:background="@color/transparent"
+	    			    android:src="@drawable/calendar_logo" />
+
+</LinearLayout>
