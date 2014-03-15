@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="peach">#FFE8A9</color>
+    <color name="mustard_yellow">#FFCC5C</color>
+    <color name="mint_green">#AAD8B0</color>
+    <color name="aqua">#000000</color>
+    <color name="salmon">#FF6F69</color>
+    <color name="hot_pink">#FE4365</color>
+    <color name="rose">#Ffffff</color>
+    <color name="pale_pink">#F9CDAD</color>
+    <color name="pale_aqua">#C8C8A9</color>
+    <color name="newspaper_green">#83AF9B</color>
+    
+</resources>
